@@ -1,7 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@astrojs/prefetch': 0.1.1
+  '@astrojs/prefetch': 0.4.0
   '@astrojs/rss': 2.1.0
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 3.0.0
@@ -20,7 +20,7 @@ specifiers:
   tailwindcss: ^3.2.4
 
 dependencies:
-  '@astrojs/prefetch': 0.1.1
+  '@astrojs/prefetch': 0.4.0
   '@astrojs/rss': 2.1.0
   '@astrojs/sitemap': 1.0.0
   '@astrojs/tailwind': 3.0.0_uhsc6pehih5huiqhsy5i7sy5um
@@ -98,8 +98,8 @@ packages:
       - supports-color
     dev: false
 
-  /@astrojs/prefetch/0.1.1:
-    resolution: {integrity: sha512-+XZcjivPHTo9thQshDWKnnORHJ1dE6odIzhmKHac2ptwla092eohkiJw7Y31+PYmuJkc3Jp+3AawuCvfqCnQ2Q==}
+  /@astrojs/prefetch/0.4.0:
+    resolution: {integrity: sha512-TTlVJcBrVv2R10Owsbl4tizvcRV+MuQsh4ZwIn2hU3XvzvaacIw4/2bzQ3WcYwQhc3t72t6E1vLdvtnXo0xyEA==}
     dependencies:
       throttles: 1.0.1
     dev: false
