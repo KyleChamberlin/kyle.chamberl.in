@@ -36,8 +36,8 @@ dependencies:
     specifier: 0.8.0
     version: 0.8.0
   pnpm:
-    specifier: ^7.26.2
-    version: 7.33.6
+    specifier: ^8.0.0
+    version: 8.7.6
   reading-time:
     specifier: ^1.5.0
     version: 1.5.0
@@ -2803,9 +2803,9 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /pnpm@7.33.6:
-    resolution: {integrity: sha512-kOJ/04BH8YWD8zQveEzD8Yf01MqsievB//rhjc17Ld52eKC/I3SBvLj36OZhNfo0gDhW5OssRCzggv+rXZ0kHw==}
-    engines: {node: '>=14.6'}
+  /pnpm@8.7.6:
+    resolution: {integrity: sha512-ZJ/LpDy+IGYpCPYo2INfnw2MopUOTHQ3HcnhbiSqVLtV5rTmsrbFHe4i35ITLpcgvIWptWbzUTZ8efDYXWpFew==}
+    engines: {node: '>=16.14'}
     hasBin: true
     dev: false
 
