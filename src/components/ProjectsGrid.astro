@@ -3,6 +3,7 @@ interface Project {
   name: string;
   description: string;
   link: string;
+  img: string;
 }
 interface Props {
   projects: Project[];
@@ -14,14 +15,13 @@ const { projects } = Astro.props;
 <ul role="list" class="grid gap-x-4 gap-y-8 grid-cols-fill-16">
   {
     projects.map((p: Project) => (
-      // you can add href={p.link} target="_blank"
-      <a class="transition-all group" href="#">
+      <a class="transition-all group" href={p.link}>
         <li class="relative w-full rounded-2xl shadow-md transition-all duration-200 ease-in-out hover:scale-105 h-[300px] shadow-black">
           <img
             decoding="async"
             loading="lazy"
             class="object-cover absolute inset-0 z-10 w-full max-w-full h-full max-h-full rounded-2xl aspect-[1/1]"
-            src={`images/${p.name.replace(/ /g, "").toLowerCase()}.webp`}
+            src={`images/${p.img.toLowerCase()}.webp`}
             alt={`Picture of ${p.name.replace(/ /g, "").toLowerCase()}`}
           />
 
