@@ -15,14 +15,14 @@ https://kyle.chamberl.in/
 
 # 🤖 Tech stack
 
-Main Framework - Astro
-Type Checking - TypeScript
-JS framework - Vanilla JS
-Styling - TailwindCSS
-Icons - Iconoir
-Code Formatting - Rustwind & Prettier (`pnpm format`)
-Deployment - Vercel
-Illustrations & Content - Midjourney & ChatGPT
+| Main Framework | Astro |
+| Type Checking | TypeScript |
+| JS framework | Vanilla JS |
+| Styling | TailwindCSS |
+| Icons | Iconoir |
+| Code Formatting | Rustwind & Prettier (`pnpm format`) |
+| Deployment | Vercel |
+| Illustrations & Content | Midjourney & ChatGPT |
 
 # 🖥️ Running locally
 
