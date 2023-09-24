@@ -18,13 +18,13 @@ dependencies:
     specifier: 5.0.0
     version: 5.0.0(astro@3.1.2)(tailwindcss@3.3.3)
   '@fontsource/inter':
-    specifier: ^5.0.0
+    specifier: ^5.0.8
     version: 5.0.8
   '@fontsource/jetbrains-mono':
-    specifier: ^5.0.0
+    specifier: ^5.0.12
     version: 5.0.12
   '@tailwindcss/line-clamp':
-    specifier: ^0.4.2
+    specifier: ^0.4.4
     version: 0.4.4(tailwindcss@3.3.3)
   astro:
     specifier: 3.1.2
@@ -36,7 +36,7 @@ dependencies:
     specifier: 0.8.0
     version: 0.8.0
   pnpm:
-    specifier: ^8.0.0
+    specifier: ^8.7.6
     version: 8.7.6
   reading-time:
     specifier: ^1.5.0
@@ -45,12 +45,12 @@ dependencies:
     specifier: ^1.0.0
     version: 1.0.0
   tailwindcss:
-    specifier: ^3.2.4
+    specifier: ^3.3.3
     version: 3.3.3
 
 devDependencies:
   '@tailwindcss/typography':
-    specifier: ^0.5.9
+    specifier: ^0.5.10
     version: 0.5.10(tailwindcss@3.3.3)
   husky:
     specifier: ^8.0.3
