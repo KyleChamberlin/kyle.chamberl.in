@@ -125,7 +125,7 @@ packages:
   /@astrojs/rss@3.0.0:
     resolution: {integrity: sha512-PMX8iqByk9gtOrusikten/oF5uHjOCZigL6RuXFBUu+xtdKQxXzfIohJ99V2haA4FJjVDyibDTGzXR81POBMxQ==}
     dependencies:
-      fast-xml-parser: 4.3.0
+      fast-xml-parser: 4.3.1
       kleur: 4.1.5
     dev: false
 
@@ -160,7 +160,7 @@ packages:
       dlv: 1.1.3
       dset: 3.1.2
       is-docker: 3.0.0
-      is-wsl: 3.0.0
+      is-wsl: 3.1.0
       undici: 5.25.2
       which-pm-runs: 1.1.0
     transitivePeerDependencies:
@@ -1113,7 +1113,7 @@ packages:
       postcss: ^8.1.0
     dependencies:
       browserslist: 4.21.11
-      caniuse-lite: 1.0.30001538
+      caniuse-lite: 1.0.30001539
       fraction.js: 4.3.6
       normalize-range: 0.1.2
       picocolors: 1.0.0
@@ -1191,7 +1191,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001538
+      caniuse-lite: 1.0.30001539
       electron-to-chromium: 1.4.528
       node-releases: 2.0.13
       update-browserslist-db: 1.0.13(browserslist@4.21.11)
@@ -1229,8 +1229,8 @@ packages:
     engines: {node: '>=14.16'}
     dev: false
 
-  /caniuse-lite@1.0.30001538:
-    resolution: {integrity: sha512-HWJnhnID+0YMtGlzcp3T9drmBJUVDchPJ08tpUGFLs9CYlwWPH2uLgpHn8fND5pCgXVtnGS3H4QR9XLMHVNkHw==}
+  /caniuse-lite@1.0.30001539:
+    resolution: {integrity: sha512-hfS5tE8bnNiNvEOEkm8HElUHroYwlqMMENEzELymy77+tJ6m+gA2krtHl5hxJaj71OlpC2cHZbdSMX1/YEqEkA==}
     dev: false
 
   /ccount@2.0.1:
@@ -1648,8 +1648,8 @@ packages:
       merge2: 1.4.1
       micromatch: 4.0.5
 
-  /fast-xml-parser@4.3.0:
-    resolution: {integrity: sha512-5Wln/SBrtlN37aboiNNFHfSALwLzpUx1vJhDgDVPKKG3JrNe8BWTUoNKqkeKk/HqNbKxC8nEAJaBydq30yHoLA==}
+  /fast-xml-parser@4.3.1:
+    resolution: {integrity: sha512-viVv3xb8D+SiS1W4cv4tva3bni08kAkx0gQnWrykMM8nXPc1FxqZPU00dCEVjkiCg4HoXd2jC4x29Nzg/l2DAA==}
     hasBin: true
     dependencies:
       strnum: 1.0.5
@@ -1960,6 +1960,14 @@ packages:
     dependencies:
       is-extglob: 2.1.1
 
+  /is-inside-container@1.0.0:
+    resolution: {integrity: sha512-KIYLCCJghfHZxqjYBE7rEy0OBuTd5xCHS7tHVgvCLkx7StIoaxwNW3hCALgEUjFfeRk+MG/Qxmp/vtETEF3tRA==}
+    engines: {node: '>=14.16'}
+    hasBin: true
+    dependencies:
+      is-docker: 3.0.0
+    dev: false
+
   /is-interactive@2.0.0:
     resolution: {integrity: sha512-qP1vozQRI+BMOPcjFzrjXuQvdak2pHNUMZoeG2eRbiSqyvbEf/wQtEOTOX1guk6E3t36RkaqiSt8A/6YElNxLQ==}
     engines: {node: '>=12'}
@@ -1984,11 +1992,11 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /is-wsl@3.0.0:
-    resolution: {integrity: sha512-TQ7xXW/fTBaz/HhGSV779AC99ocpvb9qJPuPwyIea+F+Z+htcQ1wouAA0xEQaa4saVqyP8mwkoYp5efeM/4Gbg==}
+  /is-wsl@3.1.0:
+    resolution: {integrity: sha512-UcVfVfaK4Sc4m7X3dUSoHoozQGBEFeDC+zVo06t98xe8CzHSZZBekNXH+tu0NalHolcJ/QAGqS46Hef7QXBIMw==}
     engines: {node: '>=16'}
     dependencies:
-      is-docker: 3.0.0
+      is-inside-container: 1.0.0
     dev: false
 
   /isexe@2.0.0:
@@ -3135,8 +3143,8 @@ packages:
     resolution: {integrity: sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==}
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
 
-  /rollup@3.29.2:
-    resolution: {integrity: sha512-CJouHoZ27v6siztc21eEQGo0kIcE5D1gVPA571ez0mMYb25LGYGKnVNXpEj5MGlepmDWGXNjDB5q7uNiPHC11A==}
+  /rollup@3.29.3:
+    resolution: {integrity: sha512-T7du6Hum8jOkSWetjRgbwpM6Sy0nECYrYRSmZjayFcOddtKJWU4d17AC3HNUk7HRuqy4p+G7aEZclSHytqUmEg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -3760,7 +3768,7 @@ packages:
     dependencies:
       esbuild: 0.18.20
       postcss: 8.4.30
-      rollup: 3.29.2
+      rollup: 3.29.3
     optionalDependencies:
       fsevents: 2.3.3
     dev: false
