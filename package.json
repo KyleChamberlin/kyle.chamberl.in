@@ -16,7 +16,7 @@
   "dependencies": {
     "@astrojs/prefetch": "0.4.1",
     "@astrojs/rss": "3.0.0",
-    "@astrojs/sitemap": "3.0.1",
+    "@astrojs/sitemap": "3.0.2",
     "@astrojs/tailwind": "5.0.2",
     "@fontsource/inter": "^5.0.8",
     "@fontsource/jetbrains-mono": "^5.0.12",
