@@ -9,7 +9,7 @@ module.exports = {
         "fill-16": "repeat(auto-fill, minmax(16rem, 1fr))",
       },
       fontFamily: {
-        mono: ['"Fira Code"', defaultTheme.fontFamily.mono],
+        mono: ['"FiraCode"', defaultTheme.fontFamily.mono],
       },
       colors: {
         contentbackground: "var(--content-bg)",
