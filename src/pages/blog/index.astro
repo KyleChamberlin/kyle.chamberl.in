@@ -97,6 +97,7 @@ const tags = [
 
   function toggleVisibility() {
     let checkedTags = Object.keys(tagMap).filter((t) => tagMap[t] === true);
+    let blogPosts = document.querySelectorAll("div[data-tags]");
 
     for (const blogPost of blogPosts) {
       let tags = blogPost.dataset.tags.split(",");

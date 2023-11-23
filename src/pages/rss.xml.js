@@ -3,7 +3,7 @@ import rss from "@astrojs/rss";
 export const get = () =>
   rss({
     // `<title>` field in output xml
-    title: "Kyle Chamberlin Dev Log",
+    title: "Kyle Chamberlin's Digital Garden",
     // `<description>` field in output xml
     description: "Just someone trying to be a better developer",
     // base URL for RSS <item> links

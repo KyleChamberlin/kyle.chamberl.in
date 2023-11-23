@@ -2,6 +2,7 @@
 
 - [ ] change blog to digital garden
 - [ ] Add Travel section
-- [ ] create cli to add posts
 - [ ] commission art for projects
 - [ ] add games section
+- [x] change twitter to mastodon
+- [x] update the open graph image

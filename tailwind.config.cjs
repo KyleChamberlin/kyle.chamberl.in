@@ -9,7 +9,7 @@ module.exports = {
         "fill-16": "repeat(auto-fill, minmax(16rem, 1fr))",
       },
       fontFamily: {
-        mono: ['"JetBrains Mono"', defaultTheme.fontFamily.mono],
+        mono: ['"Fira Code"', defaultTheme.fontFamily.mono],
       },
       colors: {
         contentbackground: "var(--content-bg)",
@@ -42,7 +42,6 @@ module.exports = {
     },
   },
   plugins: [
-    require("@tailwindcss/line-clamp"),
     require("tailwind-gradient-mask-image"),
     require("@tailwindcss/typography"),
   ],

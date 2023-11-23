@@ -9,10 +9,11 @@ const { frontmatter } = Astro.props;
   type="article"
 >
   <main class="px-8 pt-16 mx-auto mb-4 max-w-6xl sm:pt-24 lg:px-16">
+
     <a
-      href="/blog"
+      href="/garden"
       class="mx-auto text-lg underline transition duration-200 decoration-2 decoration-accent-300 text-primary-100 hover:decoration-accent-300"
-      >‹ Back to blog</a
+    >‹ Garden</a
     >
     <article
       class={`mx-auto 
@@ -25,18 +26,18 @@ const { frontmatter } = Astro.props;
       prose-strong:text-primary-100
       prose-code:text-primary-100
       prose-blockquote:text-primary-200
-        prose-img:rounded-2xl
+      prose-img:rounded-2xl
       marker:prose-li:text-primary-100
       prose-li:text-primary-100
       prose-ul:text-primary-100
       prose-ol:text-primary-100
       prose-pre:rounded-2xl
       prose-pre:border-[1px]
-    prose-pre:border-primary-700/40
+      prose-pre:border-primary-700/40
       prose-img:mx-auto
       prose-img:shadow-md
       prose-video:mx-auto
-    prose-p:text-primary-300`}
+      prose-p:text-primary-300`}
     >
       <slot />
     </article>

@@ -13,4 +13,9 @@ import prefetch from "@astrojs/prefetch";
 export default defineConfig({
   site: "https://kyle.chamberl.in/",
   integrations: [tailwind(), sitemap(), prefetch({ throttle: 3 })],
+  markdown: {
+    remarkPlugins: [
+      "remark-hint",
+    ]
+  }
 });
