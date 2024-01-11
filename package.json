@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "@astrojs/prefetch": "0.4.1",
-    "@astrojs/rss": "4.0.1",
+    "@astrojs/rss": "4.0.2",
     "@astrojs/sitemap": "3.0.4",
     "@astrojs/tailwind": "5.1.0",
     "@fontsource/fira-code": "^5.0.8",
