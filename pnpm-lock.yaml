@@ -33,8 +33,8 @@ dependencies:
     specifier: 1.1.2
     version: 1.1.2
   astro-seo:
-    specifier: 0.8.2
-    version: 0.8.2(prettier-plugin-astro@0.13.0)(typescript@5.3.3)
+    specifier: 0.8.3
+    version: 0.8.3(prettier-plugin-astro@0.13.0)(typescript@5.3.3)
   pnpm:
     specifier: ^8.7.6
     version: 8.15.4
@@ -1112,8 +1112,8 @@ packages:
     resolution: {integrity: sha512-HCnBlb805QaT8xgPB59Qur9wqFKoLGA3gQjY33SQe07re1XTF8ksJ3UT8KF55V14aNwfhe/dr4WC0ZZ2DL7U7g==}
     dev: false
 
-  /astro-seo@0.8.2(prettier-plugin-astro@0.13.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-9hu+2y0QboOShFly9r+LcasfEOsWFhV5GKzsfnPG4kbNm9mqXuEP7YrUt7XrEA7rJOzC1DInOV+cIT+7zBasBQ==}
+  /astro-seo@0.8.3(prettier-plugin-astro@0.13.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-gQeEh0U2yyVM0iyU8DTORK6hXMy5WH2wufrkUuNOKjI3LnYLniqgDxm1LZPQDuD6b4OHabVOi/5L88A9POCcCQ==}
     dependencies:
       '@astrojs/check': 0.5.5(prettier-plugin-astro@0.13.0)(typescript@5.3.3)
     transitivePeerDependencies:
