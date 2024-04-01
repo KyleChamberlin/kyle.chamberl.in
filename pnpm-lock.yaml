@@ -37,7 +37,7 @@ dependencies:
     version: 0.8.3(prettier-plugin-astro@0.13.0)(typescript@5.4.3)
   pnpm:
     specifier: ^8.7.6
-    version: 8.15.5
+    version: 8.15.6
   reading-time:
     specifier: ^1.5.0
     version: 1.5.0
@@ -3317,8 +3317,8 @@ packages:
       find-up: 4.1.0
     dev: false
 
-  /pnpm@8.15.5:
-    resolution: {integrity: sha512-sFGjLH5pWDO4SSbTspuMylclS1ifBknYmcbp0O22cLkex+KkNFm65zdZu1zmGcMmbxFr+THOItHvF1mn5Fqpbw==}
+  /pnpm@8.15.6:
+    resolution: {integrity: sha512-d7iem+d6Kwatj0A6Gcrl4il29hAj+YrTI9XDAZSVjrwC7gpq5dE+5FT2E05OjK8poF8LGg4dKxe8prah8RWfhg==}
     engines: {node: '>=16.14'}
     hasBin: true
     dev: false
