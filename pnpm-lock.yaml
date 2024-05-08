@@ -33,8 +33,8 @@ importers:
         specifier: 4.7.1
         version: 4.7.1(typescript@5.4.5)
       astro-color-scheme:
-        specifier: 1.1.2
-        version: 1.1.2
+        specifier: 1.1.4
+        version: 1.1.4
       astro-seo:
         specifier: 0.8.3
         version: 0.8.3(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5)
@@ -764,8 +764,8 @@ packages:
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
 
-  astro-color-scheme@1.1.2:
-    resolution: {integrity: sha512-HCnBlb805QaT8xgPB59Qur9wqFKoLGA3gQjY33SQe07re1XTF8ksJ3UT8KF55V14aNwfhe/dr4WC0ZZ2DL7U7g==}
+  astro-color-scheme@1.1.4:
+    resolution: {integrity: sha512-6uKMDb9ShrUwjGZhYKj375ZzAwSewurwhGZdSWOK2gBB+/YpFSbNm5wiOGG83O18AKna++2GhXOmhvaCnhP/Mg==}
 
   astro-seo@0.8.3:
     resolution: {integrity: sha512-gQeEh0U2yyVM0iyU8DTORK6hXMy5WH2wufrkUuNOKjI3LnYLniqgDxm1LZPQDuD6b4OHabVOi/5L88A9POCcCQ==}
@@ -2942,7 +2942,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-color-scheme@1.1.2: {}
+  astro-color-scheme@1.1.4: {}
 
   astro-seo@0.8.3(prettier-plugin-astro@0.13.0)(prettier@3.2.5)(typescript@5.4.5):
     dependencies:
