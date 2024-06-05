@@ -40,7 +40,7 @@ importers:
         version: 0.8.4(prettier-plugin-astro@0.14.0)(prettier@3.3.0)(typescript@5.4.5)
       pnpm:
         specifier: ^9.0.0
-        version: 9.1.4
+        version: 9.2.0
       reading-time:
         specifier: ^1.5.0
         version: 1.5.0
@@ -1796,8 +1796,8 @@ packages:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
 
-  pnpm@9.1.4:
-    resolution: {integrity: sha512-nfnPJ8kXFWRsfWddHJyOQfb86IJG8TGMGqah7RrrPE8DL830umPMacT+bWNCeRdrU1hyfY8sweZbZfQ84vi/sA==}
+  pnpm@9.2.0:
+    resolution: {integrity: sha512-mKgP0RwucJZ0d2IwQQZDKz3cZ9z1S1qMAck/aKLNXgXmghhJUioG+3YoTUGiZg1eM08u47vykYO/LnObHa+ncQ==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -4317,7 +4317,7 @@ snapshots:
     dependencies:
       find-up: 4.1.0
 
-  pnpm@9.1.4: {}
+  pnpm@9.2.0: {}
 
   postcss-import@15.1.0(postcss@8.4.38):
     dependencies:
