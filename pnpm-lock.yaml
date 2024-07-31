@@ -25,7 +25,7 @@ importers:
         version: 5.0.18
       '@fontsource/inter':
         specifier: ^5.0.8
-        version: 5.0.19
+        version: 5.0.20
       '@tailwindcss/line-clamp':
         specifier: ^0.4.4
         version: 0.4.4(tailwindcss@3.4.7)
@@ -381,8 +381,8 @@ packages:
   '@fontsource/fira-code@5.0.18':
     resolution: {integrity: sha512-DuH/ewp/2sSYoJw7PxB1VuCyrxo7OCEWeML7sN5yNfP8gTleIktZl/dTopcPOHv1WwDUcqRG1veRoEgfEeYfqQ==}
 
-  '@fontsource/inter@5.0.19':
-    resolution: {integrity: sha512-tVU77yjKnsoUotrXGYbbYxmL9nbm/MSo3deZietmf8V2FEDlbi9fvkJHMrYbo7ZsOqR1AYBBqRYmemz4pSE5Mg==}
+  '@fontsource/inter@5.0.20':
+    resolution: {integrity: sha512-rtw2F7xfM7rJmmnncXnR4ADr5wXsp4GyN1O1jmQJ1PMjAK+bm620/ZkQkeOYOkGoa09OksGinOeMA+Mkt6K9PQ==}
 
   '@img/sharp-darwin-arm64@0.33.4':
     resolution: {integrity: sha512-p0suNqXufJs9t3RqLBO6vvrgr5OhgbWp76s5gTRvdmxmuv9E1rcaqGUsl3l4mKVmXPkTkTErXediAui4x+8PSA==}
@@ -2546,7 +2546,7 @@ snapshots:
 
   '@fontsource/fira-code@5.0.18': {}
 
-  '@fontsource/inter@5.0.19': {}
+  '@fontsource/inter@5.0.20': {}
 
   '@img/sharp-darwin-arm64@0.33.4':
     optionalDependencies:
