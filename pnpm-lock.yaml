@@ -19,7 +19,7 @@ importers:
         version: 3.1.6
       '@astrojs/tailwind':
         specifier: 5.1.0
-        version: 5.1.0(astro@4.13.2(typescript@5.5.4))(tailwindcss@3.4.8)
+        version: 5.1.0(astro@4.13.2(typescript@5.5.4))(tailwindcss@3.4.9)
       '@fontsource/fira-code':
         specifier: ^5.0.8
         version: 5.0.18
@@ -28,7 +28,7 @@ importers:
         version: 5.0.20
       '@tailwindcss/line-clamp':
         specifier: ^0.4.4
-        version: 0.4.4(tailwindcss@3.4.8)
+        version: 0.4.4(tailwindcss@3.4.9)
       astro:
         specifier: 4.13.2
         version: 4.13.2(typescript@5.5.4)
@@ -55,7 +55,7 @@ importers:
         version: 1.2.0
       tailwindcss:
         specifier: ^3.3.3
-        version: 3.4.8
+        version: 3.4.9
     devDependencies:
       husky:
         specifier: ^9.0.0
@@ -1905,8 +1905,8 @@ packages:
   tailwind-gradient-mask-image@1.2.0:
     resolution: {integrity: sha512-tUJaGhvqbJFiVKJu6EU5n//KvGdVvY3L3VOFNqjztk13+ifAk00pcSNHBTgHfUiBGOEzDn0gFRbSmsftUV1lXA==}
 
-  tailwindcss@3.4.8:
-    resolution: {integrity: sha512-GkP17r9GQkxgZ9FKHJQEnjJuKBcbFhMFzKu5slmN6NjlCuFnYJMQ8N4AZ6VrUyiRXlDtPKHkesuQ/MS913Nvdg==}
+  tailwindcss@3.4.9:
+    resolution: {integrity: sha512-1SEOvRr6sSdV5IDf9iC+NU4dhwdqzF4zKKq3sAbasUWHEM6lsMhX+eNN5gkPx1BvLFEnZQEUFbXnGj8Qlp83Pg==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2295,13 +2295,13 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.23.8
 
-  '@astrojs/tailwind@5.1.0(astro@4.13.2(typescript@5.5.4))(tailwindcss@3.4.8)':
+  '@astrojs/tailwind@5.1.0(astro@4.13.2(typescript@5.5.4))(tailwindcss@3.4.9)':
     dependencies:
       astro: 4.13.2(typescript@5.5.4)
       autoprefixer: 10.4.20(postcss@8.4.40)
       postcss: 8.4.40
       postcss-load-config: 4.0.2(postcss@8.4.40)
-      tailwindcss: 3.4.8
+      tailwindcss: 3.4.9
     transitivePeerDependencies:
       - ts-node
 
@@ -2722,9 +2722,9 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@tailwindcss/line-clamp@0.4.4(tailwindcss@3.4.8)':
+  '@tailwindcss/line-clamp@0.4.4(tailwindcss@3.4.9)':
     dependencies:
-      tailwindcss: 3.4.8
+      tailwindcss: 3.4.9
 
   '@types/babel__core@7.20.5':
     dependencies:
@@ -4354,7 +4354,7 @@ snapshots:
 
   tailwind-gradient-mask-image@1.2.0: {}
 
-  tailwindcss@3.4.8:
+  tailwindcss@3.4.9:
     dependencies:
       '@alloc/quick-lru': 5.2.0
       arg: 5.0.2
