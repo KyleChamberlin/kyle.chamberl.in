@@ -19,7 +19,7 @@ importers:
         version: 3.3.0
       '@astrojs/tailwind':
         specifier: 6.0.1
-        version: 6.0.1(astro@5.5.4(rollup@4.37.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.0.15)
+        version: 6.0.1(astro@5.5.4(rollup@4.37.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.1.4)
       '@fontsource/fira-code':
         specifier: ^5.0.8
         version: 5.2.5
@@ -28,7 +28,7 @@ importers:
         version: 5.2.5
       '@tailwindcss/line-clamp':
         specifier: ^0.4.4
-        version: 0.4.4(tailwindcss@4.0.15)
+        version: 0.4.4(tailwindcss@4.1.4)
       astro:
         specifier: 5.5.4
         version: 5.5.4(rollup@4.37.0)(typescript@5.8.2)(yaml@2.7.0)
@@ -40,7 +40,7 @@ importers:
         version: 0.8.4(prettier-plugin-astro@0.14.1)(prettier@3.5.3)(typescript@5.8.2)
       pnpm:
         specifier: ^10.0.0
-        version: 10.6.5
+        version: 10.9.0
       reading-time:
         specifier: ^1.5.0
         version: 1.5.0
@@ -55,7 +55,7 @@ importers:
         version: 1.2.0
       tailwindcss:
         specifier: ^4.0.0
-        version: 4.0.15
+        version: 4.1.4
     devDependencies:
       husky:
         specifier: ^9.0.0
@@ -1321,8 +1321,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.6.5:
-    resolution: {integrity: sha512-zfko/KIIMs1Z7FOCZJK33CXcUk1DcLa0rb9lgD0y76psHIgUfArk6NV5psnuxxV1e1DU+jXuoXnYaOraTtBDrw==}
+  pnpm@10.9.0:
+    resolution: {integrity: sha512-BIbjlGQNPB+zydQ9Sc+Sh5/3T4UWlZwjUwj1qPYuLhlSimXNwqMFj1h83nHro9W1YyfIwzqX5MQFHKSKEMotXw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1550,8 +1550,8 @@ packages:
   tailwind-gradient-mask-image@1.2.0:
     resolution: {integrity: sha512-tUJaGhvqbJFiVKJu6EU5n//KvGdVvY3L3VOFNqjztk13+ifAk00pcSNHBTgHfUiBGOEzDn0gFRbSmsftUV1lXA==}
 
-  tailwindcss@4.0.15:
-    resolution: {integrity: sha512-6ZMg+hHdMJpjpeCCFasX7K+U615U9D+7k5/cDK/iRwl6GptF24+I/AbKgOnXhVKePzrEyIXutLv36n4cRsq3Sg==}
+  tailwindcss@4.1.4:
+    resolution: {integrity: sha512-1ZIUqtPITFbv/DxRmDr5/agPqJwF69d24m9qmM1939TJehgY539CtzeZRjbLt5G6fSy/7YqqYsfvoTEw9xUI2A==}
 
   throttles@1.0.1:
     resolution: {integrity: sha512-fab7Xg+zELr9KOv4fkaBoe/b3L0GMGLd0IBSCn16GoE/Qx6/OfCr1eGNyEcDU2pUA79qQfZ8kPQWlRuok4YwTw==}
@@ -2041,13 +2041,13 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.2
 
-  '@astrojs/tailwind@6.0.1(astro@5.5.4(rollup@4.37.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.0.15)':
+  '@astrojs/tailwind@6.0.1(astro@5.5.4(rollup@4.37.0)(typescript@5.8.2)(yaml@2.7.0))(tailwindcss@4.1.4)':
     dependencies:
       astro: 5.5.4(rollup@4.37.0)(typescript@5.8.2)(yaml@2.7.0)
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
-      tailwindcss: 4.0.15
+      tailwindcss: 4.1.4
     transitivePeerDependencies:
       - ts-node
 
@@ -2381,9 +2381,9 @@ snapshots:
 
   '@sindresorhus/is@4.6.0': {}
 
-  '@tailwindcss/line-clamp@0.4.4(tailwindcss@4.0.15)':
+  '@tailwindcss/line-clamp@0.4.4(tailwindcss@4.1.4)':
     dependencies:
-      tailwindcss: 4.0.15
+      tailwindcss: 4.1.4
 
   '@types/debug@4.1.12':
     dependencies:
@@ -3435,7 +3435,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.6.5: {}
+  pnpm@10.9.0: {}
 
   postcss-load-config@4.0.2(postcss@8.5.3):
     dependencies:
@@ -3746,7 +3746,7 @@ snapshots:
 
   tailwind-gradient-mask-image@1.2.0: {}
 
-  tailwindcss@4.0.15: {}
+  tailwindcss@4.1.4: {}
 
   throttles@1.0.1: {}
 
