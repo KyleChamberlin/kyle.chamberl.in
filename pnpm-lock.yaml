@@ -19,7 +19,7 @@ importers:
         version: 3.3.1
       '@astrojs/tailwind':
         specifier: 6.0.2
-        version: 6.0.2(astro@5.7.8(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@4.1.4)
+        version: 6.0.2(astro@5.7.9(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@4.1.4)
       '@fontsource/fira-code':
         specifier: ^5.0.8
         version: 5.2.5
@@ -30,8 +30,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4(tailwindcss@4.1.4)
       astro:
-        specifier: 5.7.8
-        version: 5.7.8(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1)
+        specifier: 5.7.9
+        version: 5.7.9(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1)
       astro-color-scheme:
         specifier: 1.1.5
         version: 1.1.5
@@ -691,8 +691,8 @@ packages:
   astro-seo@0.8.4:
     resolution: {integrity: sha512-Ou1vzQSXAxa0K8rtNtXNvSpYqOGEgMhh0immMxJeXmbVZac3UKCNWAoXWyOQDFYsZvBugCRSg0N1phBqPMVgCw==}
 
-  astro@5.7.8:
-    resolution: {integrity: sha512-82ku6+wOGXP5c5+YOkBzEGJ/k8/GVSeN0xD/TNUrPf5nvWpGGpngxtUAwuruKF6wIxRC1/SwlUVCs/4QT98iZQ==}
+  astro@5.7.9:
+    resolution: {integrity: sha512-P0cLijpmu4xZEXIh83ROOJqiCWRA7KSo24nhRLIjbMkiPElXu2qL1c28m7xhylCXeHa0lnCGPLyNjs1Wx3GyxA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2112,9 +2112,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.24.3
 
-  '@astrojs/tailwind@6.0.2(astro@5.7.8(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@4.1.4)':
+  '@astrojs/tailwind@6.0.2(astro@5.7.9(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1))(tailwindcss@4.1.4)':
     dependencies:
-      astro: 5.7.8(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1)
+      astro: 5.7.9(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1)
       autoprefixer: 10.4.21(postcss@8.5.3)
       postcss: 8.5.3
       postcss-load-config: 4.0.2(postcss@8.5.3)
@@ -2594,7 +2594,7 @@ snapshots:
       - prettier-plugin-astro
       - typescript
 
-  astro@5.7.8(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1):
+  astro@5.7.9(rollup@4.40.1)(typescript@5.8.3)(yaml@2.7.1):
     dependencies:
       '@astrojs/compiler': 2.11.0
       '@astrojs/internal-helpers': 0.6.1
