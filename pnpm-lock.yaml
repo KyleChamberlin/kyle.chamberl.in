@@ -19,7 +19,7 @@ importers:
         version: 3.4.2
       '@astrojs/tailwind':
         specifier: 6.0.2
-        version: 6.0.2(astro@5.12.9(@types/node@24.2.1)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1))(tailwindcss@4.1.11)
+        version: 6.0.2(astro@5.12.9(@types/node@24.2.1)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1))(tailwindcss@4.1.12)
       '@fontsource/fira-code':
         specifier: ^5.0.8
         version: 5.2.6
@@ -28,7 +28,7 @@ importers:
         version: 5.2.6
       '@tailwindcss/line-clamp':
         specifier: ^0.4.4
-        version: 0.4.4(tailwindcss@4.1.11)
+        version: 0.4.4(tailwindcss@4.1.12)
       astro:
         specifier: 5.12.9
         version: 5.12.9(@types/node@24.2.1)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1)
@@ -55,7 +55,7 @@ importers:
         version: 1.2.0
       tailwindcss:
         specifier: ^4.0.0
-        version: 4.1.11
+        version: 4.1.12
     devDependencies:
       husky:
         specifier: ^9.0.0
@@ -1615,8 +1615,8 @@ packages:
   tailwind-gradient-mask-image@1.2.0:
     resolution: {integrity: sha512-tUJaGhvqbJFiVKJu6EU5n//KvGdVvY3L3VOFNqjztk13+ifAk00pcSNHBTgHfUiBGOEzDn0gFRbSmsftUV1lXA==}
 
-  tailwindcss@4.1.11:
-    resolution: {integrity: sha512-2E9TBm6MDD/xKYe+dvJZAmg3yxIEDNRc0jwlNyDg/4Fil2QcSLjFKGVff0lAf1jjeaArlG/M75Ey/EYr/OJtBA==}
+  tailwindcss@4.1.12:
+    resolution: {integrity: sha512-DzFtxOi+7NsFf7DBtI3BJsynR+0Yp6etH+nRPTbpWnS2pZBaSksv/JGctNwSWzbFjp0vxSqknaUylseZqMDGrA==}
 
   throttles@1.0.1:
     resolution: {integrity: sha512-fab7Xg+zELr9KOv4fkaBoe/b3L0GMGLd0IBSCn16GoE/Qx6/OfCr1eGNyEcDU2pUA79qQfZ8kPQWlRuok4YwTw==}
@@ -2130,13 +2130,13 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/tailwind@6.0.2(astro@5.12.9(@types/node@24.2.1)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1))(tailwindcss@4.1.11)':
+  '@astrojs/tailwind@6.0.2(astro@5.12.9(@types/node@24.2.1)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1))(tailwindcss@4.1.12)':
     dependencies:
       astro: 5.12.9(@types/node@24.2.1)(rollup@4.46.2)(typescript@5.9.2)(yaml@2.8.1)
       autoprefixer: 10.4.21(postcss@8.5.6)
       postcss: 8.5.6
       postcss-load-config: 4.0.2(postcss@8.5.6)
-      tailwindcss: 4.1.11
+      tailwindcss: 4.1.12
     transitivePeerDependencies:
       - ts-node
 
@@ -2485,9 +2485,9 @@ snapshots:
     dependencies:
       tslib: 2.8.1
 
-  '@tailwindcss/line-clamp@0.4.4(tailwindcss@4.1.11)':
+  '@tailwindcss/line-clamp@0.4.4(tailwindcss@4.1.12)':
     dependencies:
-      tailwindcss: 4.1.11
+      tailwindcss: 4.1.12
 
   '@types/debug@4.1.12':
     dependencies:
@@ -3914,7 +3914,7 @@ snapshots:
 
   tailwind-gradient-mask-image@1.2.0: {}
 
-  tailwindcss@4.1.11: {}
+  tailwindcss@4.1.12: {}
 
   throttles@1.0.1: {}
 
