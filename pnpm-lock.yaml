@@ -22,10 +22,10 @@ importers:
         version: 6.0.2(astro@5.13.8(@types/node@24.4.0)(rollup@4.50.1)(typescript@5.9.2)(yaml@2.8.1))(tailwindcss@4.1.13)
       '@fontsource/fira-code':
         specifier: ^5.0.8
-        version: 5.2.6
+        version: 5.2.7
       '@fontsource/inter':
         specifier: ^5.0.8
-        version: 5.2.7
+        version: 5.2.8
       '@tailwindcss/line-clamp':
         specifier: ^0.4.4
         version: 0.4.4(tailwindcss@4.1.13)
@@ -320,11 +320,11 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource/fira-code@5.2.6':
-    resolution: {integrity: sha512-wCkIpPm0BqlkCPLYeY4Vui96ODmVUV0/GpEe3OfJ4v8EJn/BF2SlyxvarFsTs1CKiGjrO2cXlIZbBrKi9F+hUQ==}
+  '@fontsource/fira-code@5.2.7':
+    resolution: {integrity: sha512-tnB9NNund9TwIym8/7DMJe573nlPEQb+fKUV5GL8TBYXjIhDvL0D7mgmNVNQUPhXp+R7RylQeiBdkA4EbOHPGQ==}
 
-  '@fontsource/inter@5.2.7':
-    resolution: {integrity: sha512-sfE4VQglV9B05DuJ+RD2RHY42FiVTdCf/dJtVkugRVkygoDigLM4SuNcBrCeo+zoGiC/IudmVcE6QKqW7S1Gkg==}
+  '@fontsource/inter@5.2.8':
+    resolution: {integrity: sha512-P6r5WnJoKiNVV+zvW2xM13gNdFhAEpQ9dQJHt3naLvfg+LkF2ldgSLiF4T41lf1SQCM9QmkqPTn4TH568IRagg==}
 
   '@img/sharp-darwin-arm64@0.34.3':
     resolution: {integrity: sha512-ryFMfvxxpQRsgZJqBd4wsttYQbCxsJksrv9Lw/v798JcQ8+w84mBWuXwl+TT0WJ/WrYOLaYpwQXi3sA9nTIaIg==}
@@ -2313,9 +2313,9 @@ snapshots:
   '@esbuild/win32-x64@0.25.9':
     optional: true
 
-  '@fontsource/fira-code@5.2.6': {}
+  '@fontsource/fira-code@5.2.7': {}
 
-  '@fontsource/inter@5.2.7': {}
+  '@fontsource/inter@5.2.8': {}
 
   '@img/sharp-darwin-arm64@0.34.3':
     optionalDependencies:
