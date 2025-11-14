@@ -19,7 +19,7 @@ importers:
         version: 3.6.0
       '@astrojs/tailwind':
         specifier: 6.0.2
-        version: 6.0.2(astro@5.15.6(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@4.1.17)
+        version: 6.0.2(astro@5.15.7(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@4.1.17)
       '@fontsource/fira-code':
         specifier: ^5.0.8
         version: 5.2.7
@@ -30,8 +30,8 @@ importers:
         specifier: ^0.4.4
         version: 0.4.4(tailwindcss@4.1.17)
       astro:
-        specifier: 5.15.6
-        version: 5.15.6(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+        specifier: 5.15.7
+        version: 5.15.7(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       astro-color-scheme:
         specifier: 1.1.5
         version: 1.1.5
@@ -755,8 +755,8 @@ packages:
   astro-seo@0.8.4:
     resolution: {integrity: sha512-Ou1vzQSXAxa0K8rtNtXNvSpYqOGEgMhh0immMxJeXmbVZac3UKCNWAoXWyOQDFYsZvBugCRSg0N1phBqPMVgCw==}
 
-  astro@5.15.6:
-    resolution: {integrity: sha512-luLcw+FGkeUHYTfbmYjIWHB4T0D+3VSjCy8DKTXglJ2O3lU40AbwmPVBcnqhRnA1SneKzP5V5pzqjsHzUZ1+Rg==}
+  astro@5.15.7:
+    resolution: {integrity: sha512-Zmw6otInhxcjoGcEyEN+wxgdiQERQOS3VzOmAKsDdKK8Fb4x1656r+9NtaTXCRZ0/fGtHjkSvkGUhZUJLXKfxQ==}
     engines: {node: 18.20.8 || ^20.3.0 || >=22.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2136,9 +2136,9 @@ snapshots:
       stream-replace-string: 2.0.0
       zod: 3.25.76
 
-  '@astrojs/tailwind@6.0.2(astro@5.15.6(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@4.1.17)':
+  '@astrojs/tailwind@6.0.2(astro@5.15.7(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1))(tailwindcss@4.1.17)':
     dependencies:
-      astro: 5.15.6(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
+      astro: 5.15.7(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1)
       autoprefixer: 10.4.21(postcss@8.5.6)
       postcss: 8.5.6
       postcss-load-config: 4.0.2(postcss@8.5.6)
@@ -2657,7 +2657,7 @@ snapshots:
       - prettier-plugin-astro
       - typescript
 
-  astro@5.15.6(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1):
+  astro@5.15.7(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3)(yaml@2.8.1):
     dependencies:
       '@astrojs/compiler': 2.13.0
       '@astrojs/internal-helpers': 0.7.4
