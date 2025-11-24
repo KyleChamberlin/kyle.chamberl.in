@@ -22,7 +22,7 @@
     "@fontsource/inter": "^5.0.8",
     "@tailwindcss/line-clamp": "^0.4.4",
     "astro": "5.16.0",
-    "astro-color-scheme": "1.1.5",
+    "astro-color-scheme": "1.1.6",
     "astro-seo": "0.8.4",
     "pnpm": "^10.0.0",
     "reading-time": "^1.5.0",
