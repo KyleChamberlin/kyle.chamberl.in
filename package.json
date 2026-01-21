@@ -21,7 +21,7 @@
     "@fontsource/fira-code": "^5.0.8",
     "@fontsource/inter": "^5.0.8",
     "@tailwindcss/line-clamp": "^0.4.4",
-    "astro": "5.16.11",
+    "astro": "5.16.12",
     "astro-color-scheme": "1.1.6",
     "astro-seo": "1.1.0",
     "pnpm": "^10.0.0",
