@@ -5,7 +5,7 @@ import Layout from "@layout/Layout.astro";
 
 import readingTime from "reading-time";
 
-let allPosts = await Astro.glob("./*.md");
+let allPosts = Object.values(import.meta.glob("./*.md", { eager: true }));
 // sort by date
 allPosts = allPosts.sort((a, b) => {
   let dateA = new Date(a.frontmatter.pubDate),

@@ -13,7 +13,7 @@ interface Props {
 const { date, readTime, title, description, tags, url } = Astro.props;
 ---
 
-<a href={url} class="transition hover:scale-[101%] duration-300" rel="prefetch">
+<a href={url} class="transition hover:scale-[101%] duration-300" data-astro-prefetch>
   <div>
     <article
       class="overflow-hidden rounded-2xl divide-none shadow transition duration-300 bg-lightercontentbackground hover:bg-primary-900"

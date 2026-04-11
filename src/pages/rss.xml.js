@@ -1,18 +1,20 @@
 import rss from "@astrojs/rss";
 
-export const get = () =>
-  rss({
-    // `<title>` field in output xml
+export async function GET(context) {
+  const posts = Object.values(
+    import.meta.glob("./blog/*.md", { eager: true })
+  );
+
+  return rss({
     title: "Kyle Chamberlin's Digital Garden",
-    // `<description>` field in output xml
     description: "Just someone trying to be a better developer",
-    // base URL for RSS <item> links
-    // SITE will use "site" from your project's astro.config.
-    site: import.meta.env.SITE,
-    // list of `<item>`s in output xml
-    // simple example: generate items for every md file in /src/pages
-    // see "Generating items" section for required frontmatter and advanced use cases
-    items: import.meta.glob("./**/*.md"),
-    // (optional) inject custom xml
+    site: context.site,
+    items: posts.map((post) => ({
+      title: post.frontmatter.title,
+      pubDate: new Date(post.frontmatter.pubDate),
+      description: post.frontmatter.description,
+      link: post.url,
+    })),
     customData: `<language>en-us</language>`,
   });
+}

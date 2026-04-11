@@ -3,6 +3,7 @@ import MainContainer from "@components/MainContainer.astro";
 import ThemeSwitcher from "@components/ThemeSwitcher.astro";
 import "@fontsource/inter";
 import "@fontsource/fira-code";
+import "../styles/global.css";
 import { SEO } from "astro-seo";
 
 const { pageTitle, description, type } = Astro.props;
@@ -38,10 +39,6 @@ const { pageTitle, description, type } = Astro.props;
     </MainContainer>
     <ThemeSwitcher />
     <style is:global>
-      @tailwind base;
-      @tailwind components;
-      @tailwind utilities;
-
       @layer base {
         :root,
         .dark {

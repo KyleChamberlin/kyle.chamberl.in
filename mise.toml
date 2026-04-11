@@ -1,0 +1,8 @@
+[tools]
+pnpm = "latest"
+node = "latest"
+hk = "latest"
+pkl = "latest"
+actionlint = "latest"
+yamllint = "latest"
+"npm:markdownlint-cli2" = "latest"

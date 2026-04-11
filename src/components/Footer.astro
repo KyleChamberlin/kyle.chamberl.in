@@ -30,7 +30,7 @@ const currentYear = new Date().getFullYear();
                   {
                     links.map((link) => (
                       <a
-                        rel="prefetch"
+                        data-astro-prefetch
                         class="transition hover:text-accent-400"
                         href={link === "Home" ? "/" : `/${link.toLowerCase()}`}
                       >

@@ -7,7 +7,7 @@ import MainIntro from "@components/MainIntro.astro";
 import ContactForm from "@components/ContactForm.astro";
 import readingTime from "reading-time";
 
-const allPosts = await Astro.glob("./blog/*.md");
+const allPosts = Object.values(import.meta.glob("./blog/*.md", { eager: true }));
 
 const lastThreePosts = allPosts
   .sort((a, b) => {

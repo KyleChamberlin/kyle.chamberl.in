@@ -1,22 +1,15 @@
 import { defineConfig } from "astro/config";
-
-// https://astro.build/config
-import tailwind from "@astrojs/tailwind";
-
-// https://astro.build/config
+import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 
-// https://astro.build/config
-import prefetch from "@astrojs/prefetch";
-
-// https://astro.build/config
 export default defineConfig({
   site: "https://kyle.chamberl.in/",
-  integrations: [tailwind(), sitemap(), prefetch({ throttle: 3 })],
+  integrations: [sitemap()],
+  prefetch: true,
+  vite: {
+    plugins: [tailwindcss()],
+  },
   markdown: {
-    remarkPlugins: [
-      "remark-hint",
-      "remark-emoji"
-    ]
-  }
+    remarkPlugins: ["remark-emoji"],
+  },
 });
