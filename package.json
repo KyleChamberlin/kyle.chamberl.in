@@ -14,7 +14,7 @@
     "format": "rustywind --write . && pnpm prettier --plugin-search-dir=. --write ."
   },
   "dependencies": {
-    "@astrojs/rss": "4.0.18",
+    "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.2",
     "@fontsource/fira-code": "^5.0.8",
     "@fontsource/inter": "^5.0.8",
